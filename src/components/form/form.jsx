@@ -24,7 +24,7 @@ export default function Form() {
   const submit = (e) => {
     e.preventDefault(); 
 
-    if(data.name === "" || data.email === "" || data.number === "") {
+    if(data.name === "" || data.email === "" || data.number === "" || data.dob === "" || data.gender === "" || data.regNo === "" || data.address === "" || data.course === "" || data.batch === ""  ) {
       setError("Fill all the fields"); 
       return; 
     }
