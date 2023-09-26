@@ -14,7 +14,7 @@ export default function Form() {
     regNo: "",
     address: "",
     course: "",
-    batch: "",
+    batch: "", 
   });
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
@@ -42,7 +42,7 @@ export default function Form() {
       setError("");
       setSuccess("Data added successfully");
     } catch (e) {
-      console.log(e);
+      // console.log(e);
       setSuccess("");
       setError(e);
     }
@@ -55,7 +55,7 @@ export default function Form() {
           <form action="" className="main-form">
             <div className="form-item">
               {/* NAME */}
-              {/* <label for="name">Name</label>
+              <label for="name">Name</label>
               <input
                 className="items"
                 type="text"
@@ -63,7 +63,7 @@ export default function Form() {
                 name="name"
                 placeholder="Your Name.."
                 onChange={(e) => setData({ ...data, name: e.target.value })}
-              /> */}
+              />
 
               {/* EMAIL */}
               <label for="email">Personal Email</label>

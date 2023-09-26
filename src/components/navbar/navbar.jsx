@@ -23,7 +23,7 @@ export default function navbar() {
           </div>
           <div className="navbar-main-right">
             <p className="alumni-btn">
-              <a href="#form">Alumni Form</a>
+              <a href="#form">Explore More</a>
             </p>
           </div>
           <div className="bars">

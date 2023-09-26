@@ -70,15 +70,6 @@ body {
 .form-item label {
   font-size: 1rem;
 }
-#marksheet,
-#photo {
-  border: 0px solid #ffffff;
-  width: 100%;
-  padding: 0;
-  margin-bottom: 0.5rem;
-  border: none;
-  /* background-color: #4caf50; */
-}
 
 @media screen and (max-width: 700px) {
   .form-item {
