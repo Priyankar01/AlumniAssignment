@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Poppins, sans-serif;
   font-size: large;
-  background-color: #e5e7eb;
+  background-color: #fff;
 }
 li {
   list-style: none;
@@ -16,16 +16,16 @@ a {
   z-index: 10;
   width: 100%;
   position: fixed;
-  background-color: #e5e7eb;
+  background-color: #fff;
 }
 .navbar-logo {
-  width: 6rem;
+  width: 10rem;
 }
 .navbar-main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0.1rem 4rem;
+  margin: 0.1rem 1.5rem;
 }
 
 .navbar-main-left {
